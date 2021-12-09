@@ -5,12 +5,12 @@ const Header = ({ categories }) => {
 	const [opener, setOpener] = useState(false)
 	const [header, setHeader] = useState('category')
 	const toggleOpener = (opener) => {
-			setOpener(!opener)
-			if (!opener) {
-				setHeader('category noshow')
-			} else {
-				setHeader('category')
-			}
+		setOpener(!opener)
+		if (!opener) {
+			setHeader('category noshow')
+		} else {
+			setHeader('category')
+		}
 	}
 	
 	return (

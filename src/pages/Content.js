@@ -14,7 +14,6 @@ const Content = () => {
 		const res = await axios.get(`https://hacker-news.firebaseio.com/v0/item/${commentId}`)
 		return res.data;
 	}
-	
 
 	useEffect(() => {
 		const getStory = async () => {
