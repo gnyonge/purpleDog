@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Pagination = ({ storiesPerPage, totalStories, paginate }) => {
+	
 	const pageNumbers = []
 	for (let i = 1; i <= Math.ceil(totalStories / storiesPerPage); i++) {
 		pageNumbers.push(i)

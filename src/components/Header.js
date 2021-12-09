@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Header = ({ categories }) => {
+	
 	const [opener, setOpener] = useState(false)
 	const [header, setHeader] = useState('category')
 	const toggleOpener = (opener) => {

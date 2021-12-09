@@ -4,6 +4,7 @@ import axios from 'axios';
 import Pagination from '../components/Pagination';
 
 const List = () => {
+	
 	const location = useLocation ();
 	const category = location.pathname.substring(1)
 	const [stories, setStories] = useState([])

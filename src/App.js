@@ -6,6 +6,7 @@ import Content from './pages/Content';
 import Home from './pages/Home';
 
 function App() {
+  
   const categories = [
 		"topstories",
     "showstories",

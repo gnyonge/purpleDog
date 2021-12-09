@@ -4,6 +4,7 @@ import axios from 'axios';
 
 
 const Content = () => {
+	
 	const param = useParams()
 	const id = param.id + '.json?print=pretty'
 	const [content, setContent] = useState([])
