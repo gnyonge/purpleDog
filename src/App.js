@@ -8,10 +8,10 @@ import Home from './pages/Home';
 function App() {
   const categories = [
 		"topstories",
-    "newstories",
-    "askstories",
     "showstories",
-    "jobstories"
+    "newstories",
+    "jobstories",
+    "askstories",
 	]
   return (
     <div className="App">

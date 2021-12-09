@@ -2,8 +2,8 @@ import React from 'react'
 
 const Home = () => {
 	return (
-		<div>
-			홈입니다
+		<div className="home">
+			퍼플독 프론트엔드 개발자 과제전형 - 최진영
 		</div>
 	)
 }
